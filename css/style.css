@@ -209,6 +209,7 @@ h2{
 
 /* página "sobre mi" */
 
+
 .misImagenes{
     display: grid;
     width: 80%;
@@ -290,31 +291,32 @@ main aside img{
 
 .sectionPrincipalMain{
     display: flex;
-    height: 33.125rem;
+    height: 25rem;
 }
 
 /* los aside de los main */
 .sectionPrincipalMain aside {
 width: 30%;
+height: 6.25rem;
 margin: .9375rem;
 border-radius: .625rem;
 box-shadow: .0625rem .0625rem .625rem white;
 }
 .sectionPrincipalMain aside img{
     width: 100%;
+    height: 18.75rem;
 }
 
 /* la información al costado del aside */
-.sectionPrincipalMain div h2{
-    font-size: 3.125rem;
+.sectionPrincipalMain section h2{
+    font-size: 2.5rem;
 }
-.sectionPrincipalMain div{
-    font-size: 1.875rem;
+.sectionPrincipalMain section {
+    font-size: 1.125rem;
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 
@@ -356,4 +358,232 @@ footer li{
     margin-top: 1.25rem;
     display: flex;
     justify-content: space-around;
+}
+
+
+@media (max-width: 1024px){
+    header{
+        background-image: none;
+        background-color: #c5cdd6;
+    }
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .contenedorMainIndex img{
+        height: 15.625rem;
+        width: 12.5rem;
+
+    }
+}
+@media (max-width: 768px){
+    .contenedorMainIndex{
+        display: flex;
+    }
+}
+@media (max-width: 425px){
+    header{
+        width: 100%;
+        height: 6.25rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav p{
+        text-align: center;
+    }
+    .banner{
+        height: 28.125rem;
+        padding-top: 6.25rem;
+        
+    }
+    h1{
+        padding-bottom: 2.1875rem;
+    }
+
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .625rem;
+    }
+    .contenedorMainIndex img{
+        height: 12.5rem;
+        width: 9.375rem;
+
+    }
+
+    .certificaciones{
+        display: grid;
+        width: 80%;
+        justify-content: s;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    .certificacionCambridge{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/2;
+        grid-row: 1/5;
+    }
+    
+    .certificacionDisplay{
+        width: 100%;
+        height: 100%;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    .certificacionSearch{
+        width: 100%;
+        height: 100%;
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+    
+    .certificacionCoderHouse{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/3;
+        grid-row: 5/9;
+    }
+
+    .whatsapp a img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+
+
+/* pagina sobre mi  */
+
+.sectionPrincipalMain{
+    height: 18.75rem;
+}
+    .sectionPrincipalMain aside{
+        height: 6.25rem;
+    }
+    .sectionPrincipalMain aside img{
+        height: 12.5rem;
+    }
+
+    .misImagenes{
+        display: grid;
+        width: 90%;
+        height: 600px;
+        margin-right: 5%;
+        margin-left: 5%; 
+        padding-top: .625rem;
+        padding-bottom: 1.25rem;
+        height: 700px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: .625rem;
+    }
+    
+    .imagen1{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/5;
+        grid-row: 1/6;
+    }
+    .imagen2{
+        display: none;
+    }
+    .imagen3{
+    display: none;
+    }
+    .imagen4{
+        width: 100%;
+        height: 100%;
+        grid-column: 5/9;
+        grid-row: 1/6;
+    }
+    .imagen5{
+        width: 100%;
+        height: 100%;
+        grid-column: 5/9;
+        grid-row: 6/9;
+    }
+    .imagen6{
+        display: none;
+    }
+    .imagen7{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/5;
+        grid-row: 6/9;
+    }
+    
+    .misImagenes img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .625rem;
+    }
+
+    footer h2{
+        font-size: 1.875rem;
+    }
+    
+    .contenedorFooter img{
+        height: 1.875rem;
+    }
+
+}
+@media (max-width: 375px){
+    header{
+        height: 4.6875rem;
+    }
+    .navBar{
+        justify-content: center;
+        gap: .625rem;
+        margin-left: .625rem;
+    }
+    .logo p a{
+        font-size: 1.25rem;
+    }
+    .navBar li a{
+        font-size: .9375rem;
+    }
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .625rem;
+    }
+    .contenedorMainIndex img{
+        height: 12.5rem;
+        width: 9.375rem;
+
+    }
+
+    
+}
+@media (max-width: 320px){
+    header{
+        height: 6.25rem;
+        position: absolute;
+    }
+    .navBar{
+        margin-left: 1.25rem;
+    }
+    .banner{
+        height: 31.25rem;
+    }   
+
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .625rem;
+    }
+    .contenedorMainIndex img{
+        height: 12.5rem;
+        width: 9.375rem;
+
+    }
+    }
+    .whatsapp{
+        bottom: .9375rem;
+        right: .9375rem;
+    }
 }
