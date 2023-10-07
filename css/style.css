@@ -41,7 +41,12 @@ header{
     z-index: 4;
 }
 
+
+
 /* banner */
+
+
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -53,6 +58,7 @@ header{
     background-position: 0% 60%;
 }
 
+
 h1{
     margin-bottom: 1.25rem;
     justify-content: center;
@@ -61,11 +67,13 @@ h1{
     font-size: 3.125rem;
 }
 
+
 .banner div p{
     text-align: center;
     font-weight: bold;
     font-size: 1.25rem;
 }
+
 
 .informacion{
     margin-top: 1.25rem;
@@ -73,14 +81,22 @@ h1{
     color: #CD1A1A;
 }
 
+
+
+
 /* barra de navegación */
+
+
+
 .logo{
     margin-top: .9375rem;
 }
+
 .logo p a{
     text-decoration: none;
     color: #CD1A1A;
 }
+
 
 .logo p{
     font-family: 'Lemon', cursive;
@@ -88,6 +104,7 @@ h1{
     margin-left: 1.25rem;
     font-weight: bold;
 }
+
 .navBar li{
     list-style: none;
 }
@@ -99,13 +116,18 @@ h1{
     font-size: 1.25rem;
 }
 
+
+
 /* navegador */
+
+
 
 nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 
 .navBar{
     display: flex;
@@ -115,9 +137,14 @@ nav{
 }
 
 
+
+
 /* aca estan los main */
 
+
 /* main index */
+
+
 
 main section div a img{
     height: 31.25rem;
@@ -128,11 +155,13 @@ main section div a img{
     box-shadow: 0rem .3125rem .625rem white;
 }
 
+
 .contenedorMainIndex{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 
 h2{
     padding-top: 3.125rem;
@@ -140,6 +169,8 @@ h2{
     color: #ffffff;
     font-size: 3.125rem;
 }
+
+
 .certificaciones{
     display: grid;
     width: 80%;
@@ -160,11 +191,13 @@ h2{
     grid-column: 1/5;
     grid-row: 1/9;
 }
+
 .certificacionCambridge img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 .certificacionDisplay{
     width: 100%;
@@ -172,11 +205,13 @@ h2{
     grid-column: 5/7;
     grid-row: 1/4;
 }
+
 .certificacionDisplay img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 .certificacionSearch{
     width: 100%;
@@ -184,11 +219,13 @@ h2{
     grid-column: 7/9;
     grid-row: 1/4;
 }
+
 .certificacionSearch img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 .certificacionCoderHouse{
     width: 100%;
@@ -196,6 +233,7 @@ h2{
     grid-column: 5/9;
     grid-row: 4/9;
 }
+
 .certificacionCoderHouse img{
     width: 100%;
     height: 100%;
@@ -207,7 +245,11 @@ h2{
 }
 
 
+
+
 /* página "sobre mi" */
+
+
 
 
 .misImagenes{
@@ -223,42 +265,49 @@ h2{
     gap: .625rem;
 }
 
+
 .imagen1{
     width: 100%;
     height: 100%;
     grid-column: 1/3;
     grid-row: 1/6;
 }
+
 .imagen2{
     width: 100%;
     height: 100%;
     grid-column: 3/5;
     grid-row: 1/5;
 }
+
 .imagen3{
     width: 100%;
     height: 100%;
     grid-column: 5/7;
     grid-row: 1/5;
 }
+
 .imagen4{
     width: 100%;
     height: 100%;
     grid-column: 7/9;
     grid-row: 1/9;
 }
+
 .imagen5{
     width: 100%;
     height: 100%;
     grid-column: 3/5;
     grid-row: 5/9;
 }
+
 .imagen6{
     width: 100%;
     height: 100%;
     grid-column: 5/7;
     grid-row: 5/9;
 }
+
 .imagen7{
     width: 100%;
     height: 100%;
@@ -274,14 +323,24 @@ h2{
 }
 
 
+
+
+
 /* imagen de fodo de todos los main */
+
+
+
 main{
     
     background-image: url(../assets/fondoNegro.jpg);
     background-size: cover;
 }
 
+
+
 /* tamaño de los aside de todos los main */
+
+
 main aside img{
     height: 31.25rem;
     width: 25rem;
@@ -294,7 +353,12 @@ main aside img{
     height: 25rem;
 }
 
+
+
 /* los aside de los main */
+
+
+
 .sectionPrincipalMain aside {
 width: 30%;
 height: 6.25rem;
@@ -302,15 +366,22 @@ margin: .9375rem;
 border-radius: .625rem;
 box-shadow: .0625rem .0625rem .625rem white;
 }
+
 .sectionPrincipalMain aside img{
     width: 100%;
     height: 18.75rem;
 }
 
+
+
+
 /* la información al costado del aside */
+
+
 .sectionPrincipalMain section h2{
     font-size: 2.5rem;
 }
+
 .sectionPrincipalMain section {
     font-size: 1.125rem;
     width: 70%;
@@ -320,7 +391,11 @@ box-shadow: .0625rem .0625rem .625rem white;
 }
 
 
+
+
 /* icono de whatsapp */
+
+
 
 .whatsapp{
     display: flex;
@@ -333,7 +408,12 @@ box-shadow: .0625rem .0625rem .625rem white;
     width: 3.75rem;
 }
 
+
+
+
 /* footer */
+
+
 
 
 footer{
@@ -352,7 +432,12 @@ footer li{
     list-style: none;
 }
 
+
+
+
 /* contendor donde van las redes sociales */
+
+
 
 .contenedorFooter{
     margin-top: 1.25rem;
@@ -366,38 +451,54 @@ footer li{
         background-image: none;
         background-color: #c5cdd6;
     }
+
+
     .contenedorMainIndex{
         display: flex;
         justify-content: space-evenly;
         
     }
+
+
     .contenedorMainIndex img{
         height: 15.625rem;
         width: 12.5rem;
 
     }
 }
+
+
+
+
 @media (max-width: 768px){
     .contenedorMainIndex{
         display: flex;
     }
 }
+
+
+
+
 @media (max-width: 425px){
     header{
         width: 100%;
         height: 6.25rem;
     }
+
     nav{
         flex-direction: column;
     }
+
     nav p{
         text-align: center;
     }
+
     .banner{
         height: 28.125rem;
         padding-top: 6.25rem;
         
     }
+
     h1{
         padding-bottom: 2.1875rem;
     }
@@ -455,7 +556,11 @@ footer li{
 
 
 
+
+
 /* pagina sobre mi  */
+
+
 
 .sectionPrincipalMain{
     height: 18.75rem;
@@ -481,33 +586,40 @@ footer li{
         gap: .625rem;
     }
     
+
     .imagen1{
         width: 100%;
         height: 100%;
         grid-column: 1/5;
         grid-row: 1/6;
     }
+
     .imagen2{
         display: none;
     }
+
     .imagen3{
     display: none;
     }
+
     .imagen4{
         width: 100%;
         height: 100%;
         grid-column: 5/9;
         grid-row: 1/6;
     }
+
     .imagen5{
         width: 100%;
         height: 100%;
         grid-column: 5/9;
         grid-row: 6/9;
     }
+
     .imagen6{
         display: none;
     }
+
     .imagen7{
         width: 100%;
         height: 100%;
@@ -531,26 +643,36 @@ footer li{
     }
 
 }
+
+
+
+
+
 @media (max-width: 375px){
     header{
         height: 4.6875rem;
     }
+
     .navBar{
         justify-content: center;
         gap: .625rem;
         margin-left: .625rem;
     }
+
     .logo p a{
         font-size: 1.25rem;
     }
+
     .navBar li a{
         font-size: .9375rem;
     }
+
     .contenedorMainIndex{
         display: flex;
         justify-content: space-evenly;
         gap: .625rem;
     }
+
     .contenedorMainIndex img{
         height: 12.5rem;
         width: 9.375rem;
@@ -559,14 +681,21 @@ footer li{
 
     
 }
+
+
+
+
 @media (max-width: 320px){
+
     header{
         height: 6.25rem;
         position: absolute;
     }
+
     .navBar{
         margin-left: 1.25rem;
     }
+
     .banner{
         height: 31.25rem;
     }   
@@ -576,14 +705,17 @@ footer li{
         justify-content: space-evenly;
         gap: .625rem;
     }
+
     .contenedorMainIndex img{
         height: 12.5rem;
         width: 9.375rem;
 
     }
     }
+
     .whatsapp{
         bottom: .9375rem;
         right: .9375rem;
     }
+    
 }
