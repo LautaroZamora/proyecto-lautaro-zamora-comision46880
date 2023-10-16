@@ -1,0 +1,34 @@
+/* carpeta utilities*/
+@import "./utilities/funciones";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+/*carpeta "base"*/
+@import "./base/reset";
+@import "./base/typo";
+
+
+/*carpeta "layout"*/
+
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/banner";
+@import "./layout/main-index";
+@import "./layout/sobre-mi";
+@import "./layout/aside";
+
+@import "./layout/icono-whatsapp";
+
+@import "./layout/footer";
+
+/*carpetas media quierie*/
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";
+
+
+/*carpeta "components"*/
+@import "./components/bootstrap";

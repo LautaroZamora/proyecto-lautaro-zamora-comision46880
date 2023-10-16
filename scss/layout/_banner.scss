@@ -1,0 +1,44 @@
+
+/* banner */
+
+
+
+.banner{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    @include flex (column, nowrap, center, center, 0);
+    height: 13.75rem;
+    background-image: url(../assets/header.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: 0% 60%;
+
+    
+    h1{
+        margin-bottom: 1.25rem;
+        // text-align: center;
+        font-family: 'Lemon', cursive;
+        font-size: 3.125rem;
+        color: map-get($colores, rojo );
+    }
+
+    div p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    strong{
+        color: map-get($colores , rojo );
+    }
+
+    .informacion{
+        margin-top: .625rem;
+        font-size: 3.75rem;
+        color: map-get($colores , rojo);
+    }
+}
+
+
+

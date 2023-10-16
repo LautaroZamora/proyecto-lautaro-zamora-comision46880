@@ -1,0 +1,36 @@
+
+@media (max-width: 375px){
+    header{
+    height: 4.6875rem; 
+
+    .navbar{
+        justify-content: center;
+        gap: .625rem;
+        margin-left: .625rem;
+
+        li a{
+            font-size: .9375rem;
+        }
+    }
+    }
+
+
+
+.banner{
+    height: 33.75rem;
+}
+
+
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .625rem;
+
+        img{
+            height: 12.5rem;
+            width: 9.375rem;
+    
+        }
+    }
+    
+}

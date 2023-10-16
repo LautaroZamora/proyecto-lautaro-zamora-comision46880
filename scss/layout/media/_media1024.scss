@@ -1,0 +1,22 @@
+
+@media (max-width: 1024px){
+
+    header{
+        height: 6.25rem;
+        padding: 0;
+        background-image: none;
+        background-color: #c5cdd6;
+    }
+
+
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        
+        img{
+            height: 15.625rem;
+            width: 12.5rem;
+    }
+
+}
+}

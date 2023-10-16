@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    height: 3.125rem;
+    padding-bottom: 3.125rem;
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 0% 42%;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}

@@ -1,0 +1,37 @@
+
+@media (max-width: 320px){
+
+    header{
+        height: 6.25rem; 
+        position: absolute;
+
+        .navBar{
+            margin-left: 1.25rem;
+        }
+    }
+
+    .banner{
+        height: 34.375rem;
+        margin-top: 1.25rem;
+    }   
+
+    .contenedorMainIndex{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .625rem;
+
+        img{
+            height: 12.5rem;
+            width: 9.375rem;
+    
+        }
+    }
+
+
+    .whatsapp{
+        bottom: .9375rem;
+        right: .9375rem;
+    }
+
+    }
+

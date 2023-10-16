@@ -1,0 +1,17 @@
+main{
+    background-image: url(../assets/fondoNegro.jpg);
+    background-size: cover;
+
+    .contenedorMainIndex{
+        @include flex (row, wrap, space-around, center, 0);
+
+        div a img{
+            height: 31.25rem;
+            width: 18.75rem;
+            border-radius: .625rem;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
+            box-shadow: 0rem .3125rem .625rem white;
+        }
+    }
+}

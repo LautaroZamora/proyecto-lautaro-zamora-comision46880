@@ -1,0 +1,35 @@
+.navbar{
+    @include flex (row, nowrap, space-between, center, 1.25rem);
+    gap: 1.25;
+    margin-right: 1.25rem;
+    margin-top: .9375rem;
+    width: 100%;
+
+    .logo{
+        width: 60%;
+        color: map-get($colores , rojo );
+        font-weight: 900;
+        font-family: 'Lemon', cursive;
+        font-size: 1.875rem;
+    }
+    .navFont{
+        font-family: 'Crimson Text', serif; 
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: map-get($colores , negro );
+            font-family: 'Crimson Text', serif; 
+            font-size: 1.25rem;
+            &:hover{
+                color: map-get($colores , rojo);
+            }
+        }
+        
+    }
+}
+
+

@@ -1,0 +1,24 @@
+footer{
+    height: 12.5rem;
+    width: 100%;
+    background-image: url(../assets/footer.jpg);
+    background-size: cover;
+    
+    h2{
+        text-align: center;
+        font-size: 3.125rem;
+        color: map-get($colores , negro );
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .contenedorFooter{
+        @include flex (row, nowrap, space-around, center, 0);
+        margin-top: 1.25rem;
+        // display: flex;
+        // justify-content: space-around;
+    }
+    
+}
