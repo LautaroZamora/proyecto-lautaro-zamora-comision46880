@@ -43,6 +43,38 @@ header{
     z-index: 4;
 }
 
+/* .logo{
+    width: 60%;
+    color: #CD1A1A;
+    font-weight: 900;
+    font-family: 'Lemon', cursive;
+    font-size: 1.875rem;
+}
+
+.navFont{
+    font-family: 'Crimson Text', serif; 
+    font-size: 1.25rem;
+    font-weight: 700;
+} */
+
+/* barra de navegación */
+
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Crimson Text', serif; 
+    font-size: 1.25rem;
+}
+
+.navbar li a:hover{
+    color: #CD1A1A;
+}
+
 .logo{
     width: 60%;
     color: #CD1A1A;
@@ -55,6 +87,25 @@ header{
     font-family: 'Crimson Text', serif; 
     font-size: 1.25rem;
     font-weight: 700;
+}
+
+
+/* navegador */
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 1.25;
+    margin-right: 1.25rem;
+    margin-top: .9375rem;
 }
 
 
@@ -95,47 +146,6 @@ h1{
     margin-top: 1.25rem;
     font-size: 3.75rem;
     color: #CD1A1A;
-}
-
-
-
-
-/* barra de navegación */
-
-
-.navbar li{
-    list-style: none;
-}
-
-.navbar li a{
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Crimson Text', serif; 
-    font-size: 1.25rem;
-}
-
-.navbar li a:hover{
-    color: #CD1A1A;
-}
-
-
-
-/* navegador */
-
-
-
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.navbar{
-    display: flex;
-    gap: 1.25;
-    margin-right: 1.25rem;
-    margin-top: .9375rem;
 }
 
 
