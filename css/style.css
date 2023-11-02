@@ -403,3 +403,26 @@ footer {
     right: .9375rem; } }
 
 /*carpeta "components"*/
+/*carousel*/
+.contenedor-bootstrap-edicion {
+  width: 25rem;
+  height: 31.25rem;
+  padding-left: 35%; }
+  .contenedor-bootstrap-edicion .carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    width: 25rem;
+    height: 31.25rem;
+    padding-left: 20%; }
+    .contenedor-bootstrap-edicion .carousel .carousel-inner {
+      justify-content: center; }
+      .contenedor-bootstrap-edicion .carousel .carousel-inner div {
+        justify-content: center; }
+        .contenedor-bootstrap-edicion .carousel .carousel-inner div img {
+          width: 25rem;
+          height: 31.25rem;
+          object-fit: cover; }

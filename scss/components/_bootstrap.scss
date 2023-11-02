@@ -1,0 +1,28 @@
+/*carousel*/
+.contenedor-bootstrap-edicion{
+    // @include flex (row, nowrap, space-around, center, 0);
+    width: 25rem;
+    height: 31.25rem;
+    padding-left: 35%;
+
+.carousel{
+    @include flex (row, nowrap, space-around, center, 0);
+    width: 25rem;
+    height: 31.25rem;
+    padding-left: 20%;
+    .carousel-inner{
+justify-content: center;
+    div{
+        justify-content: center;
+
+        img{
+            width: 25rem;
+            height: 31.25rem;
+            object-fit: cover;
+            
+        }
+    }
+
+}
+}
+}
