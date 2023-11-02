@@ -404,25 +404,26 @@ footer {
 
 /*carpeta "components"*/
 /*carousel*/
+.estilo-de-ellos {
+  margin-bottom: 3.125rem; }
+
 .contenedor-bootstrap-edicion {
   width: 25rem;
   height: 31.25rem;
-  padding-left: 35%; }
+  margin-left: auto;
+  margin-right: auto;
+  scroll-snap-align: center; }
   .contenedor-bootstrap-edicion .carousel {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 0;
     width: 25rem;
     height: 31.25rem;
-    padding-left: 20%; }
-    .contenedor-bootstrap-edicion .carousel .carousel-inner {
-      justify-content: center; }
-      .contenedor-bootstrap-edicion .carousel .carousel-inner div {
-        justify-content: center; }
-        .contenedor-bootstrap-edicion .carousel .carousel-inner div img {
-          width: 25rem;
-          height: 31.25rem;
-          object-fit: cover; }
+    padding-bottom: 6.25rem; }
+    .contenedor-bootstrap-edicion .carousel .carousel-inner div img {
+      width: 100%;
+      height: 31.25rem;
+      object-fit: cover; }
